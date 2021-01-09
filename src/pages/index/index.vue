@@ -4,16 +4,21 @@
 		<view>
 			<text class="title">{{title}}</text>
 		</view>
+    <uni-pagination title="标题文字" total="20"></uni-pagination>
 	</view>
 </template>
 
 <script>
+  import {uniPagination} from '@dcloudio/uni-ui'
 	export default {
 		data() {
 			return {
 				title: 'Hello'
 			}
-		},
+    },
+    components: {
+      uniPagination
+    },
 		onLoad() {
 
 		},
