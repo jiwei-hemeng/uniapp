@@ -1,6 +1,6 @@
 export default function(Vue) {
   const baseUrl = "https://www.baidu.com";
-  Vue.prototype.http = async function(opts) {
+  Vue.prototype.$http = async function(opts) {
     const { url } = opts;
     uni.showLoading({
       title: "数据加载中...",
