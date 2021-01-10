@@ -45,7 +45,6 @@
           // 跳转回到上一个路由
           uni.navigateBack();
         }
-        // uni.navigateBack();
       },
     },
     onLoad() {
