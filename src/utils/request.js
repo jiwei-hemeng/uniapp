@@ -4,11 +4,11 @@ export default function(Vue) {
     const { url } = opts;
     uni.showLoading({
       title: "数据加载中...",
-      mask: true
+      mask: true,
     });
-    opts.url = baseUrl + opts.url
-    const [err, res] = await uni.request(opts)
+    opts.url = baseUrl + opts.url;
+    const [err, res] = await uni.request(opts);
     uni.hideLoading();
     return res.data;
-  }
+  };
 }
