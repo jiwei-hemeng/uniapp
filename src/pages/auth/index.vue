@@ -54,7 +54,7 @@
   }
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
   button {
     width: 600rpx;
     margin: 200rpx auto 0;
