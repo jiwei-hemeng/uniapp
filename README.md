@@ -1,19 +1,27 @@
-# my-project
+## uniapp - 项目搭建
 
-## Project setup
-```
-yarn install
-```
+### 克隆
 
-### Compiles and hot-reloads for development
-```
-yarn serve
+```shell
+git clone git@github.com:jiwei-hemeng/uniapp.git
 ```
 
-### Compiles and minifies for production
-```
-yarn build
+### 安装项目依赖
+
+```shell
+yarn
+# 或者 npm
+npm i
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 启动开发环境
+
+```shell
+npm run dev:%PLATFORM%
+```
+
+### 启动生产环境
+
+```shell
+npm run build:%PLATFORM%
+```
