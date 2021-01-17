@@ -3,7 +3,7 @@
 ### 克隆
 
 ```shell
-git clone git@github.com:jiwei-hemeng/uniapp.git
+git clone git@github.com:jiwei-hemeng/uniapp-base.git
 ```
 
 ### 安装项目依赖
